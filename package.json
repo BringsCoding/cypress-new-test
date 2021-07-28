@@ -6,7 +6,7 @@
   "scripts": {
     "server": "serve ./src",
     "open": "cypress open",
-    "run": "cypress run"
+    "running": "cypress run"
   },
   "keywords": [],
   "author": "",
