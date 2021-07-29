@@ -10,8 +10,7 @@
     "eslint": "eslint src --fix",
     "eslintrunning": "eslint src ",
     "prettier": "prettier src --write",
-    "prettierrunnig": "prettier src --check",
-    "prettierall": "prettier src"
+    "prettierrunnig": "prettier src --check"
   },
   "keywords": [],
   "author": "",
