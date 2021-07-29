@@ -22,5 +22,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
+      - run: npm run eslintrunning
+      - run: npm run prettierrunning
       - run: npm run server &
       - run: npm run running
