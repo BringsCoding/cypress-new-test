@@ -10,7 +10,15 @@
     "eslint": "eslint src --fix",
     "eslintrunning": "eslint src ",
     "prettier": "prettier src --write",
-    "prettierrunnig": "prettier src"
+    "prettierrunnig": "prettier src --check",
+    "prettierall": "prettier src",
+    "prettier-format": "prettier src/**/*.{js,html} --write"
+  },
+  "prettier": {
+    "semi": true,
+    "trailingComma": "none",
+    "singleQuote": true,
+    "printWidth": 80
   },
   "keywords": [],
   "author": "",
