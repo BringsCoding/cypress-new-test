@@ -7,7 +7,17 @@ addButton.addEventListener("click", addTodo);
 function addTodo() {
   const newTodo = input.value;
   const newLi = document.createElement("li");
+  const colorbutton = document.createElement("button");
+  colorbutton.id = "button";
+
   newLi.innerText = newTodo;
 
   list.appendChild(newLi);
+
+  colorbutton.innerText = "make me red";
+  newLi.appendChild(colorbutton);
+
+  colorbutton.addEventListener("click", function () {
+    newLi.style.color = "red";
+  });
 }
